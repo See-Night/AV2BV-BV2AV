@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh_CN">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://kaguramea.net:8000/static/css/bili_av_bv.css">
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_1588170_bl789zdh6xv.css">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+
+    <title>Bili av <-> bv</title>
+  </head>
+  <body>
+    <button type="button" class="btn btn-secondary iconfont icon-help" data-toggle="tooltip" data-placement="top" id="help" title="<p class='text-left'>算法采用知乎@mcfx大佬的思路</p>" data-html="true">
+    </button>
+    
+    <div id="page">
+      <div id="logo">
+        <h3><b>av bv转换工具</b></h3>
+      </div>
+      <div id="video_num">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                av
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropmenu">
+                <button class="dropdown-item" type="button" id='av'>av</button>
+                <button class="dropdown-item" type="button" id='bv'>bv</button>
+              </div>
+            </div>
+          </div>
+          <input type="text" class="form-control" aria-label="Text input with dropdown button" id="v">
+        </div>
+        <button type="button" class="btn btn-block" id="submit"></button>
+        <div>
+          <div class="input-group" style="margin-top: 15px;">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Result</span>
+            </div>
+            <input type="text" class="form-control" readonly="readonly" id="result">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://kaguramea.net:8000/static/js/bili_av_bv.js"></script>
+    <script type="text/javascript">
+    </script>
+  </body>
+</html>
